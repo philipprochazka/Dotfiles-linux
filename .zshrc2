@@ -1,0 +1,60 @@
+#! /bin/zsh
+export EDITOR=emacs
+export VISUAL=emacs
+export fzf_preview_cmd='bat --style=numbers --color=always --line-range :500'
+export fzf_preview_window='right:50%'
+export fzf_layout='reverse'
+export fzf_history_dir=$HOME/.fzf/
+export fzf_history_file=$fzf_history_dir/history
+export fzf_history_size=20000
+export fzf_history_max_age=1
+# Export Firefox do PATH
+export PATH="/Applications/Firefox.app/Contents/MacOS:$PATH"
+
+# Nastavení Firefoxu jako výchozího prohlížeče
+export BROWSER=firefox
+
+# Aliasy pro Firefox
+alias ff='firefox'
+alias web='firefox'
+alias firefox-private='firefox --private-window'
+export firefox-default-profile='--profile /Users/michal/Library/Application\ Support/Firefox/Profiles/michal.default-release'
+
+export PAGER=less
+export LESS="-R"
+export LS_OPTIONS='--color=auto'
+export CLICOLOR=1
+export LSCOLORS=gxfxcxdxbxegedabagacad
+export LS_COLORS='di=34:ln=35:so=32:pi=33:ex=31:bd=46;34:cd=43;34:su=41;30:sg=46;30:tw=42;30:ow=43;30'
+export LS_COLORS='di=34:ln=35:so=32:pi=33:ex=31:bd=46;34:cd=43;34:su=41;30:sg=46;30:tw=42;30:ow=43;30'
+export ZO_HOME=$HOME/.zoxide
+export ZO_ECHO=1
+export ZO_DATA_DIR=$HOME/.zoxide
+export ZO_EXCLUDE_DIRS="node_modules, .circleci, "
+# Aliases
+alias ls='ls $LS_OPTIONS'
+alias ll='ls -la'
+alias l='ls -CF'
+alias la='ls -a'
+alias lh='ls -lh'
+alias lha='ls -lha'
+
+alias code='cursor'
+alias edit='cursor'
+alias v='cursor'
+alias vim='nvim'
+alias pager='less'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+alias z='zoxide'
+alias f='fzf'
+alias fz='fzf --preview "bat --style=numbers --color=always --line-range :500 {}"'
+alias fd='fzf --preview "bat --style=numbers --color=always --line-range :500 {}"'
+alias fda='fd --hidden --exclude .git --exclude node_modules'
+alias fdc='fd --hidden --exclude .git --exclude node_modules --exclude .DS_Store'
+alias fdd='fd --hidden --exclude .git --exclude node_modules --exclude .DS_Store --exclude .venv'
+alias fdh='fd --hidden --exclude .git --exclude node_modules --exclude .DS_Store --exclude .venv --exclude .venv'
