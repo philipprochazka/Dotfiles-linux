@@ -1,0 +1,20 @@
+     [Module-device_automounter]
+     autoload=true
+
+     [Module-networkstatus]
+     autoload=true
+
+     [Module-bluetooth]
+     autoload=true
+
+     [Module-autologin]
+     autoload=true
+
+     [Module-firefox]
+     autoload=true
+
+     [Module-wifi]
+     autoload=true
+    
+     [Module-krunner]
+     autoload=true
