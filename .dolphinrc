@@ -1,0 +1,31 @@
+[General]
+Version=202
+ViewPropsTimestamp=2023,1,1,0,0,0
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[PreviewSettings]
+Plugins=directorythumbnail,imagethumbnail,jpegthumbnail
+
+[KFileDialog Settings]
+ShowHidden=true
+
+[KPropertiesDialog]
+ShowHidden=true
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[DetailsMode]
+ShowHidden=true
+
+[IconsMode]
+ShowHidden=true
+
+[CompactMode]
+ShowHidden=true
+
+[ColumnMode]
+ShowHidden=true
