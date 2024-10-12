@@ -39,3 +39,24 @@ set tabsize 4
 
 ## Enable auto-indentation
 set autoindent
+# Nastavení barev
+set titlecolor brightwhite,blue
+set statuscolor brightwhite,green
+set keycolor brightwhite,red
+set functioncolor brightwhite,cyan
+set numbercolor brightwhite,magenta
+set selectedcolor brightwhite,yellow
+set errorcolor brightwhite,red
+set functioncolor brightwhite,cyan
+set keycolor brightwhite,red
+set matchbrackets "string"
+set morespace
+set operatingdir "pwd"
+# set quotestr "regex" # not understood, commented out
+set softwrap
+# set speller "aspell -x -c" # for Linux
+# set speller "hunspell -d en_US" # for Linux, alternative
+# set speller "pspell -d en_US" # for Windows, using pspell
+set zap
+
+
