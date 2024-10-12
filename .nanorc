@@ -1,0 +1,41 @@
+#!<bin/sh>
+# Syntax highlighting pro Linux (vynecháno)
+# include /usr/share/nano-syntax-highlighting/*.nanorc
+
+# Syntax highlighting pro PowerShell (Windows)
+include %APPDATA%\nano\*.nanorc
+
+# Navigace
+set smooth
+set mouse
+
+# Zálohování
+set backup
+set backupdir ~/.nano/backup
+
+# Další možnosti
+set tabstospaces
+set number
+
+# Nastavení klávesových zkratek
+bind ^J scroll down 1 line
+bind ^K scroll up 1 line
+bind ^F next word
+bind ^B previous word
+bind ^D cut word
+bind ^T copy word
+bind ^C cursor position
+bind ^G go to line
+bind ^W where is
+bind ^Y prev history
+bind ^P next history
+
+
+
+## Enable line numbers
+set linenumbers
+## Set tab size to 4 spaces
+set tabsize 4
+
+## Enable auto-indentation
+set autoindent
